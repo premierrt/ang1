@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {FormsyModule} from './formsy/formsy.module'
+
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+      FormsyModule
   ],
   providers: [],
   bootstrap: [AppComponent]

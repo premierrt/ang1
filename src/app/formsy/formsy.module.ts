@@ -6,6 +6,7 @@ import { FormularzComponent } from './formularz/formularz.component';
   imports: [
     CommonModule
   ],
-  declarations: [FormularzComponent]
+  declarations: [FormularzComponent],
+  exports: [FormularzComponent]
 })
 export class FormsyModule { }
