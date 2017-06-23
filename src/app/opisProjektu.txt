@@ -1,0 +1,7 @@
+
+https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol
+
+
+Dodać:
+-pobierania zawartosci json przez rest
+-testy unit i e2e
