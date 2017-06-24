@@ -6,8 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basic.component.css']
 })
 export class BasicComponent implements OnInit {
+    
+    pierwszyTekst : string;
+    drugiTekst: string;
 
-  constructor() { }
+
+    napisz() :void{
+        this.drugiTekst = 'Zmieniam wartosc pola tekstowego w Komponencie w funkcji napisz()';
+    }
+
+  constructor() { 
+      this.pierwszyTekst= 'To jest tekst ze zmiennej';
+      this.drugiTekst = 'To jest drugi tekst'
+  }
 
   ngOnInit() {
   }
