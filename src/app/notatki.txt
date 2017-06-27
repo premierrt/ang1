@@ -1,0 +1,27 @@
+
+dobry tutek:
+https://www.sitepoint.com/angular-2-tutorial/
+
+https://www.sitepoint.com/angular-rxjs-create-api-service-rest-backend/
+
+
+
+to_do:
+-testy
+-git tag
+
+-rozkminic ten kod:
+public getAllTodos() {
+    // will use this.http.get()
+      return this.http
+    .get(API_URL + '/todos')
+    .map(response => {
+      const todos = response.json();
+      return todos.map((todo) => new Todo(todo));
+    })
+    .catch(this.handleError);
+  }
+http://www.kurshtml.edu.pl/js/map,array-prototype.html
+
+http://blog.ng-book.com/introduction-to-ngmodules-components-dependency-injection-and-testing/
+
