@@ -7,9 +7,11 @@ import {Todo} from 'app/todo/todo';
 @Component({
   selector: 'app-guitodos',
   templateUrl: './guitodos.component.html',
-  styleUrls: ['./guitodos.component.css'],
+  styleUrls: ['./guitodos.component.css']
+  //,
   //dodaje ze restservice jest proivderem
-  providers: [RestserviceService]
+  //przenioslem provider do modulu
+//  providers: [RestserviceService]
 })
 export class GuitodosComponent implements OnInit {
 

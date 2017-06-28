@@ -5,3 +5,15 @@ describe('Todo', () => {
     expect(new Todo()).toBeTruthy();
   });
 });
+
+describe ('Todo contstructor', () => {
+   it('test konstruktora', ()=>{
+      let todo = new Todo ({
+          title: 'tytuł',
+          complete: true
+      });
+      expect(todo.title).toEqual('tytuł');
+      expect(todo.complete).toEqual(true);
+   }
+   ) ;
+});
